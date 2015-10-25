@@ -3,8 +3,6 @@ var sourcemaps = require('gulp-sourcemaps');
 var sourcemaps = require('gulp-sourcemaps');
 var tslint = require('gulp-tslint');
 var ts = require('gulp-typescript');
-var uglify = require('gulp-uglify');
-var concat = require('gulp-concat');
 var browserSync = require('browser-sync');
 var superstatic = require('superstatic');
 
@@ -38,8 +36,6 @@ gulp.task('compile-ts', function() {
             target: 'ES5'
         }))
         .js
-        //.pipe(uglify())
-        //.pipe(concat('all.min.js'))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./public/js'));
 });
