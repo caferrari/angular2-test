@@ -1,0 +1,24 @@
+{
+  "name": "angular2-test",
+  "description": "",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos André Ferrari",
+  "license": "MIT",
+  "devDependencies": {
+    "angular2": "^2.0.0-alpha.44",
+    "browser-sync": "^2.9.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.9.2",
+    "gulp-uglify": "^1.4.2",
+    "superstatic": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-tslint": "^3.4.0"
+  }
+}
